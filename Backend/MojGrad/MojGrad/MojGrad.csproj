@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200318163059_Initial.cs" />
+    <Compile Remove="Migrations\20200318163059_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200318163312_new.cs" />
+    <Compile Remove="Migrations\20200318163312_new.Designer.cs" />
+    <Compile Remove="Migrations\20200318163851_Init.cs" />
+    <Compile Remove="Migrations\20200318163851_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200318164115_Initt.cs" />
+    <Compile Remove="Migrations\20200318164115_Initt.Designer.cs" />
+    <Compile Remove="Migrations\20200318164747_Init.cs" />
+    <Compile Remove="Migrations\20200318164747_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200318201457_Init.cs" />
+    <Compile Remove="Migrations\20200318201457_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200318201831_Init.cs" />
+    <Compile Remove="Migrations\20200318201831_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200318205345_i.cs" />
+    <Compile Remove="Migrations\20200318205345_i.Designer.cs" />
+    <Compile Remove="Migrations\20200318211149_i.cs" />
+    <Compile Remove="Migrations\20200318211149_i.Designer.cs" />
+    <Compile Remove="Migrations\20200319110830_a.cs" />
+    <Compile Remove="Migrations\20200319110830_a.Designer.cs" />
+    <Compile Remove="Migrations\20200319111804_a.cs" />
+    <Compile Remove="Migrations\20200319111804_a.Designer.cs" />
+    <Compile Remove="Migrations\20200319112506_a.cs" />
+    <Compile Remove="Migrations\20200319112506_a.Designer.cs" />
+    <Compile Remove="Migrations\20200319125046_b.cs" />
+    <Compile Remove="Migrations\20200319125046_b.Designer.cs" />
+    <Compile Remove="Migrations\20200319130618_a.cs" />
+    <Compile Remove="Migrations\20200319130618_a.Designer.cs" />
+    <Compile Remove="Migrations\20200321161618_b.cs" />
+    <Compile Remove="Migrations\20200321161618_b.Designer.cs" />
+    <Compile Remove="Migrations\20200321161850_a.cs" />
+    <Compile Remove="Migrations\20200321161850_a.Designer.cs" />
+    <Compile Remove="Migrations\20200321185914_b.cs" />
+    <Compile Remove="Migrations\20200321185914_b.Designer.cs" />
+    <Compile Remove="Migrations\20200322144714_a.cs" />
+    <Compile Remove="Migrations\20200322144714_a.Designer.cs" />
+    <Compile Remove="Migrations\20200329112713_init.cs" />
+    <Compile Remove="Migrations\20200329112713_init.Designer.cs" />
+    <Compile Remove="Migrations\20200329113309_init.cs" />
+    <Compile Remove="Migrations\20200329113309_init.Designer.cs" />
+    <Compile Remove="Migrations\20200401143738_b.cs" />
+    <Compile Remove="Migrations\20200401143738_b.Designer.cs" />
+    <Compile Remove="Migrations\20200401143925_a.cs" />
+    <Compile Remove="Migrations\20200401143925_a.Designer.cs" />
+    <Compile Remove="Migrations\20200401144233_init.cs" />
+    <Compile Remove="Migrations\20200401144233_init.Designer.cs" />
+    <Compile Remove="Migrations\20200405154241_b.cs" />
+    <Compile Remove="Migrations\20200405154241_b.Designer.cs" />
+    <Compile Remove="Migrations\20200413123203_resenja.cs" />
+    <Compile Remove="Migrations\20200413123203_resenja.Designer.cs" />
+    <Compile Remove="Migrations\20200413141906_resenjaocena.cs" />
+    <Compile Remove="Migrations\20200413141906_resenjaocena.Designer.cs" />
+    <Compile Remove="Migrations\20200421143425_rolaBanFcm.cs" />
+    <Compile Remove="Migrations\20200421143425_rolaBanFcm.Designer.cs" />
+    <Compile Remove="Migrations\20200424162841_ucesnici.cs" />
+    <Compile Remove="Migrations\20200424162841_ucesnici.Designer.cs" />
+    <Compile Remove="Migrations\20200426154116_radius.cs" />
+    <Compile Remove="Migrations\20200426154116_radius.Designer.cs" />
+    <Compile Remove="Migrations\20200426154540_eventKomentar.cs" />
+    <Compile Remove="Migrations\20200426154540_eventKomentar.Designer.cs" />
+    <Compile Remove="Migrations\20200429114819_medalja.cs" />
+    <Compile Remove="Migrations\20200429114819_medalja.Designer.cs" />
+    <Compile Remove="Migrations\20200429115039_medalja.cs" />
+    <Compile Remove="Migrations\20200429115039_medalja.Designer.cs" />
+    <Compile Remove="Migrations\20200429172810_medaljeNaziv.cs" />
+    <Compile Remove="Migrations\20200429172810_medaljeNaziv.Designer.cs" />
+    <Compile Remove="Migrations\20200429180017_medaljaOpis.cs" />
+    <Compile Remove="Migrations\20200429180017_medaljaOpis.Designer.cs" />
+    <Compile Remove="Migrations\20200504142504_nadleznost.cs" />
+    <Compile Remove="Migrations\20200504142504_nadleznost.Designer.cs" />
+    <Compile Remove="Migrations\20200507151113_prijaveEventi.cs" />
+    <Compile Remove="Migrations\20200507151113_prijaveEventi.Designer.cs" />
+    <Compile Remove="Migrations\20200510160133_sred.cs" />
+    <Compile Remove="Migrations\20200510160133_sred.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="1.10.0" />
+    <PackageReference Include="Hangfire.Core" Version="1.7.11" />
+    <PackageReference Include="Hangfire.SQLite" Version="1.4.2" />
+    <PackageReference Include="JWT" Version="6.1.2" />
+    <PackageReference Include="MailKit" Version="2.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+    <PackageReference Include="NPOI" Version="2.4.1" />
+    <PackageReference Include="Quartz" Version="3.0.7" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\Event\" />
+    <Folder Include="wwwroot\Images\Medal\" />
+    <Folder Include="wwwroot\Images\Solution\" />
+    <Folder Include="wwwroot\Images\Post\" />
+  </ItemGroup>
+
+
+</Project>
